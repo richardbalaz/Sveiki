@@ -1,0 +1,226 @@
+// CSS Framework: Sveiki
+// © 2015 Richard Baláž 
+//
+// -- Component: Typography
+// Typography is all about fonts, about font-family and sizes.
+
+// -- Headers
+
+h1 {
+	font-size: $h1-size;
+	line-height: $h1-line;
+
+	font-family: $h1-font;
+}
+
+h2 {
+	font-size: $h2-size;
+	line-height: $h2-line;
+
+	font-family: $h2-font;
+}
+
+h3 {
+	font-size: $h3-size;
+	line-height: $h3-line;
+	
+	font-family: $h3-font;
+}
+
+h4 {
+	font-size: $h4-size;
+	line-height: $h4-line;
+
+	font-family: $h4-font;
+}
+
+h5 {
+	font-size: $h5-size;
+	line-height: $h5-line;
+
+	font-family: $h5-font; 
+}
+
+// -- Texts
+
+p {
+	font-size: $text-size;
+	line-height: $text-line;
+
+	font-family: $p-font;
+}
+
+i, em {
+	font-size: $text-size;
+	line-height: $text-line;
+
+	font-family: $em-font;
+}
+
+b, strong {
+	font-size: $text-size;
+	line-height: $text-line;
+
+	font-family: $strong-font;
+}
+
+// -- Anchor
+
+a {
+	font-size: $text-size;
+	line-height: $text-line - 0.02em;
+
+	text-decoration: none;
+	outline: 0em;
+
+	font-family: $a-font;
+}
+
+// Aligns
+
+h1, h2, h3, h4, h5, p, i, em, b, strong, a {	
+	&[align="left"] 		{ text-align: left; }
+	&[align="right"] 		{ text-align: right; }
+	&[align="center"] 		{ text-align: center; }
+	&[align="justify"]		{ text-align: justify; }
+	&[case="lower"]			{ text-transform: lowercase; }
+	&[case="uppper"]		{ text-transform: uppercase; }
+}
+
+// -- Typography system media queries
+
+@media screen and (min-width: $grid-computer-min) {
+	h1, h2, h3, h4, h5, p {
+		&[for-computer] 	{ display: block; }
+	}
+	i, em, b, strong, a {
+		&[for-computer] 	{ display: inline; }
+	}
+}
+
+@media screen and (max-width: $grid-tablet-max) and (min-width: $grid-tablet-min) {
+	
+	// -- Headers
+	h1 {
+		font-size: $h1-tablet-size;
+		line-height: $h1-tablet-line;
+	}
+
+	h2 {
+		font-size: $h2-tablet-size;
+		line-height: $h2-tablet-line;
+	}
+
+	h3 {
+		font-size: $h3-tablet-size;
+		line-height: $h3-tablet-line;
+	}
+
+	h4 {
+		font-size: $h4-tablet-size;
+		line-height: $h4-tablet-line;
+	}
+
+	h5 {
+		font-size: $h5-tablet-size;
+		line-height: $h5-tablet-line; 
+	}	
+
+	// -- Texts
+
+	p {
+		font-size: $text-tablet-size;
+		line-height: $text-tablet-line;
+	}
+
+	i, em {
+		font-size: $text-tablet-size;
+		line-height: $text-tablet-line;
+	}
+
+	b, strong {
+		font-size: $text-tablet-size;
+		line-height: $text-tablet-line;
+	}
+
+	// -- Anchor
+
+	a {
+		font-size: $text-tablet-size;
+		line-height: $text-tablet-line - 0.02em;
+
+		text-decoration: none;
+		outline: 0em;
+	}
+
+	h1, h2, h3, h4, h5, p {
+		&[for-tablet] 	{ display: block; }
+	}
+	i, em, b, strong, a {
+		&[for-tablet] 	{ display: inline; }
+	}			
+}
+
+@media screen and (max-width: $grid-phone-max) {
+	
+	// -- Headers
+
+	h1 {
+		font-size: $h1-phone-size;
+		line-height: $h1-phone-line;
+	}
+
+	h2 {
+		font-size: $h2-phone-size;
+		line-height: $h2-phone-line;
+	}
+
+	h3 {
+		font-size: $h3-phone-size;
+		line-height: $h3-phone-line;
+	}
+
+	h4 {
+		font-size: $h4-phone-size;
+		line-height: $h4-phone-line;
+	}
+
+	h5 {
+		font-size: $h5-phone-size;
+		line-height: $h5-phone-line; 
+	}
+	
+	// -- Texts
+
+	p {
+		font-size: $text-phone-size;
+		line-height: $text-phone-line;
+	}
+
+	i, em {
+		font-size: $text-phone-size;
+		line-height: $text-phone-line;
+	}
+
+	b, strong {
+		font-size: $text-phone-size;
+		line-height: $text-phone-line;
+	}
+
+	// -- Anchor
+
+	a {
+		font-size: $text-phone-size;
+		line-height: $text-phone-line - 0.02em;
+
+		text-decoration: none;
+		outline: 0em;
+	}
+
+	h1, h2, h3, h4, h5, p {
+		&[for-phone] 	{ display: block; }
+	}
+	i, em, b, strong, a {
+		&[for-phone] 	{ display: inline; }
+	}					
+}

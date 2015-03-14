@@ -1,0 +1,32 @@
+@media screen and (min-width: $grid-computer-min) {
+	* {
+		&[for-tablet] 	{ display: none; }
+		&[for-phone] 	{ display: none; }
+	}
+
+	* {
+		&[for-computer] { display: block; }
+	}
+}
+
+@media screen and (max-width: $grid-tablet-max) and (min-width: $grid-tablet-min) {
+	* {
+		&[for-computer] 	{ display: none; }
+		&[for-phone] 		{ display: none; }
+	}
+
+	* {
+		&[for-tablet] 		{ display: block; }
+	}
+}
+
+@media screen and (max-width: $grid-phone-max) {
+	* {
+		&[for-computer] 	{ display: none; }
+		&[for-tablet] 		{ display: none; }
+	}
+
+	* {
+		&[for-phone] 		{ display: block; }
+	}
+}

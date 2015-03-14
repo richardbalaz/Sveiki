@@ -1,0 +1,149 @@
+@font-face {
+	font-family: "Font-Headers";
+	src: url("../fonts/Arquitecta-Book.woff") format("woff");
+}
+@font-face {
+	font-family: "Font-Texts";
+	src: url("../fonts/Myriad-Pro.woff") format("woff");
+}
+@font-face {
+	font-family: "Elusive";
+	src: url("../fonts/Elusive.woff") format("woff");
+}
+
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300&subset=latin,latin-ext);
+
+.site-layout {
+	max-width: 68.75em;
+}
+
+.header-wrap {
+	background-color: rgba(36, 217, 0, 0.9);
+
+}
+.header-wrap .header-title {
+	font-size: 2em;
+	color: #FFF2DE;
+	line-height: 1;
+}
+.header-wrap .header-nav navmenu navitem {
+	padding: 0;
+}
+.header-wrap .header-nav navmenu navitem {
+	padding-left: 0.55em;
+	padding-right: 0.55em;
+}
+.header-wrap .header-nav navmenu navitem a {
+	color: #F4F8F2;
+	line-height: 1.8;
+}
+.header-wrap .header-nav navmenu navitem strong {
+	color: #FFFFFF;
+	line-height: 1.8;
+}
+
+.header-wrap .header-nav navmenu navitem:hover {
+	background-color: rgba(20, 240, 20, 1.0);
+}
+
+.intro-wrap {
+	background-color: rgba(27, 206, 14, 1.0);
+	min-height: 35em;
+}
+
+.intro-wrap row {
+	height: 100%;
+}
+
+.intro-wrap h3 {
+	font-size: 3em;
+	line-height: 1;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.intro-wrap h2 {
+	font-size: 4.3em;
+	line-height: 1;
+	color: #EEE;
+}
+
+.intro-slogan {
+	margin: 3em 0em 4em;
+}
+
+.intro-code {
+	padding-bottom: 0;
+}
+
+.intro-code pre {
+	background-color: #F9F8F7;
+	padding: 1em;
+	margin: 0;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+		tab-size: 4;
+}
+
+.intro-code pre code {
+	display: block;
+	white-space: pre-wrap;
+	min-height: 20em;
+	font-size: 17px;
+	font-family: "Source Code Pro";
+}
+.intro-code .intro-code-header {
+	background-color: #F3F1F4;
+	border-top-left-radius: 0.17em;
+	border-top-right-radius: 0.17em;
+}
+.intro-code .intro-code-header i:before {
+	font-family: "Elusive";
+	font-size: 0.7em;
+	margin-left: 0.6em;
+	margin-right: 0.7em;
+	font-style: normal;
+	color: #AAAFA5;
+}
+.intro-code .intro-code-header i.resize:before {
+	content: "\e800";
+}
+.intro-code .intro-code-header i.cross:before {
+	content: "\e801";
+}
+
+.code-comment {
+	color: #8C8C8C;
+}
+
+.code-tag {
+	color: #446FBD;
+}
+.code-attribute {
+	color: #738d00;
+}
+.code-value {
+	color: #f37028;
+}
+
+@-moz-document url-prefix() {
+	.header-wrap .header-title {
+		position: relative;
+		top: 2px;
+	}
+}
+
+@media screen and (min-width: 60em) {
+	.header-wrap .header-nav navmenu {
+		-webkit-margin-before: 10px;
+	}
+}
+
+@media screen and (max-width: 60em) {
+	.header-wrap .header-title {
+		text-align: center;
+	}
+	.header-wrap .header-nav navmenu navitem {
+		padding-top: 0.55em;
+		padding-bottom: 0.55em;
+	}
+}

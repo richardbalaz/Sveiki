@@ -1,0 +1,76 @@
+// CSS Framework: Sveiki
+// © 2015 Richard Baláž 
+//
+// -- Settings
+// Defining all settings values.
+
+// -- Settings values for component 'Grid'
+
+$grid-width: 68.75em;
+
+$grid-computer-max: 92.50em;
+$grid-computer-min: 60.0625em;
+
+$grid-tablet-max: 60em;
+$grid-tablet-min: 30.0625em;
+
+$grid-phone-max: 34.375em;
+
+// -- Settings values for component 'Typography'
+
+$h1-font: "Font-h1", "Font-Headers", serif;
+$h2-font: "Font-h2", "Font-Headers", serif;
+$h3-font: "Font-h3", "Font-Headers", serif;
+$h4-font: "Font-h4", "Font-Headers",serif;
+$h5-font: "Font-h5", "Font-Headers",serif;
+
+$p-font: "Font-p", "Font-Texts",sans-serif;
+$em-font: "Font-i", "Font-Texts",sans-serif;
+$strong-font: "Font-strong", "Font-Texts",sans-serif;
+$a-font: "Font-a", "Font-Texts",sans-serif;
+
+$h1-size: 48px;
+$h2-size: 36px;
+$h3-size: 28px;
+$h4-size: 18px;
+$h5-size: 16px;
+
+$h1-tablet-size: 40px;
+$h2-tablet-size: 32px;
+$h3-tablet-size: 24px;
+$h4-tablet-size: 18px;
+$h5-tablet-size: 16px;
+
+$h1-phone-size: 32px;
+$h2-phone-size: 26px;
+$h3-phone-size: 22px;
+$h4-phone-size: 18px;
+$h5-phone-size: 16px;
+
+$h1-line: 1.05em;
+$h2-line: 1.25em;
+$h3-line: 1.25em;
+$h4-line: 1.22em;
+$h5-line: 1.22em;
+
+$h1-tablet-line: 1.125em;
+$h2-tablet-line: 1.25em;
+$h3-tablet-line: 1.25em;
+$h4-tablet-line: 1.22em;
+$h5-tablet-line: 1.22em;
+
+
+$h1-phone-line: 1.25em;
+$h2-phone-line: 1.15em;
+$h3-phone-line: 1.13em;
+$h4-phone-line: 1.11em;
+$h5-phone-line: 1.11em;
+
+
+$text-size: 18px;
+$text-tablet-size: 17px;
+$text-phone-size: 16px;
+
+$text-line: 1.675em;
+$text-tablet-line: 1.675em;
+$text-phone-line: 1.45em;

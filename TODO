@@ -1,0 +1,13 @@
+1,  (DONE, 2014) Set 'no-space' in row to eliminate space when wrap with align-content: flex-start
+2,  (DONE, 2014) In navitem, set display flex and align-items center
+3,  (DONE, 2/1/2015) Switch from for-XXX classes to attributes
+4,  (DONE, 2/1/2015) Rewrite copyright year from 2014 to 2015
+5,  (DONE, 3/1/2015) Fix 'split' attibute
+6,  (DONE, 3/1/2015) Add some new flex attributes to row - align, justify & orientation
+7,  (DONE, 4/1/2015) Philosophical change of orientations
+8,  (DONE, 4/1/2015) Autosplit
+9,  (DONE, 4/1/2015) Add for-XXX support for typography component
+10, (DONE, 4/1/2015) Detach display: none; from grid component to make it more modular
+11, (DONE, 4/1/2015) Move from px to em at responsiveness border
+12, (DONE, 4/1/2015) Fix auto
+13, Comments :)

@@ -1,0 +1,36 @@
+// CSS Framework: Sveiki
+// © 2015 Richard Baláž 
+//
+// -- Component: Input
+// Input consists of forms, text inputs, password inputs, textareas...
+
+form {
+	width: 100%;
+}
+
+input {
+	font-size: $text-size;
+	line-height: $text-line;
+	padding: 0.2em 0.5em;
+	width: 100%;
+} 
+
+button {
+	font-size: $text-size;
+	line-height: $text-line;
+	padding: 0.2em 0.5em;
+}
+
+@media screen and (max-width: $grid-tablet-max) and (min-width: $grid-tablet-min) {
+	input, button {
+		font-size: $text-tablet-size;
+		line-height: $text-tablet-line;	
+	}
+}
+
+@media screen and (max-width: $grid-phone-max) {
+	input, button {
+		font-size: $text-phone-size;
+		line-height: $text-phone-line;
+	}
+}
