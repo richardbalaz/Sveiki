@@ -74,11 +74,11 @@ column {
 	&[size="auto"] 	{ flex: 0 0 auto; }
 	&[size="fill"] 	{ flex-grow: 1; }
 
-	&[align="top"] 			{ align-self: flex-start; }
-	&[align="bottom"] 		{ align-self: flex-end; }
-	&[align="center"] 		{ align-self: center; }
-	&[align="baseline"] 	{ align-self: baseline; }
-	&[align="stretch"] 		{ align-self: stretch; }
+	&[item="top"] 			{ align-self: flex-start; }
+	&[item="bottom"] 		{ align-self: flex-end; }
+	&[item="center"] 		{ align-self: center; }
+	&[item="baseline"] 		{ align-self: baseline; }
+	&[item="stretch"] 		{ align-self: stretch; }
 	&[no-space] 			{ padding: 0em; }	
 }
 
