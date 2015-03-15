@@ -47,7 +47,11 @@ row {
 	&[content="between"] 	{ align-content: space-between; }
 	&[content="around"] 	{ align-content: space-around; }
 
-	&[inner-container] 		{ padding-left: calc((100% - $grid-width) / 2) !important; padding-right: calc((100% - $grid-width) / 2) !important; }	
+	&[inner="980"]		{ padding-left: calc((100% - 61.250em) / 2) !important; padding-right: calc((100% - 61.250em) / 2) !important; }	
+	&[inner="1050"] 	{ padding-left: calc((100% - 65.625em) / 2) !important; padding-right: calc((100% - 65.625em) / 2) !important; }	
+	&[inner="1100"] 	{ padding-left: calc((100% - 68.750em) / 2) !important; padding-right: calc((100% - 68.750em) / 2) !important; }
+	&[inner="1200"] 	{ padding-left: calc((100% - 75.000em) / 2) !important; padding-right: calc((100% - 75.000em) / 2) !important; }
+	&[inner="1300"] 	{ padding-left: calc((100% - 81.250em) / 2) !important; padding-right: calc((100% - 81.250em) / 2) !important; }
 }
 
 column {
@@ -124,6 +128,10 @@ end-x {
 		&[large="10"]		{ flex-basis: 83.333% !important; }
 		&[large="11"]		{ flex-basis: 91.666% !important; }
 		&[large="12"]		{ flex-basis: 100.000% !important; }
+
+		&[large="split"] 	{ flex: 1 1 0% !important; }
+		&[large="auto"] 	{ flex: 0 0 auto !important; }
+		&[large="fill"] 	{ flex-grow: 1 !important; }
 	}
 }
 
@@ -149,6 +157,10 @@ end-x {
 		&[tablet="10"]		{ flex-basis: 83.333% !important; }
 		&[tablet="11"]		{ flex-basis: 91.666% !important; }
 		&[tablet="12"]		{ flex-basis: 100.000% !important; }
+
+		&[tablet="split"] 	{ flex: 1 1 0% !important; }
+		&[tablet="auto"] 	{ flex: 0 0 auto !important; }
+		&[tablet="fill"] 	{ flex-grow: 1 !important; }		
 	}
 
 	row, center-x, center-y, start-x, end-y {
@@ -172,6 +184,10 @@ end-x {
 		&[phone="10"]		{ flex-basis: 83.333% !important; }
 		&[phone="11"]		{ flex-basis: 91.666% !important; }
 		&[phone="12"]		{ flex-basis: 100.000% !important; }
+
+		&[phone="split"] 	{ flex: 1 1 0% !important; }
+		&[phone="auto"] 	{ flex: 0 0 auto !important; }
+		&[phone="fill"] 	{ flex-grow: 1 !important; }
 	}
 
 	row, center-x, center-y, start-x, end-y {

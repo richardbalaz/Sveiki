@@ -192,9 +192,25 @@ row[content="around"] {
       -ms-flex-line-pack: distribute;
           align-content: space-around;
 }
-row[inner-container] {
-  padding-left: calc((100% - $grid-width) / 2) !important;
-  padding-right: calc((100% - $grid-width) / 2) !important;
+row[inner="980"] {
+  padding-left: calc((100% - 61.250em) / 2) !important;
+  padding-right: calc((100% - 61.250em) / 2) !important;
+}
+row[inner="1050"] {
+  padding-left: calc((100% - 65.625em) / 2) !important;
+  padding-right: calc((100% - 65.625em) / 2) !important;
+}
+row[inner="1100"] {
+  padding-left: calc((100% - 68.750em) / 2) !important;
+  padding-right: calc((100% - 68.750em) / 2) !important;
+}
+row[inner="1200"] {
+  padding-left: calc((100% - 75.000em) / 2) !important;
+  padding-right: calc((100% - 75.000em) / 2) !important;
+}
+row[inner="1300"] {
+  padding-left: calc((100% - 81.250em) / 2) !important;
+  padding-right: calc((100% - 81.250em) / 2) !important;
 }
 
 column {
@@ -283,27 +299,27 @@ column[size="fill"] {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-column[align="top"] {
+column[item="top"] {
   -webkit-align-self: flex-start;
       -ms-flex-item-align: start;
           align-self: flex-start;
 }
-column[align="bottom"] {
+column[item="bottom"] {
   -webkit-align-self: flex-end;
       -ms-flex-item-align: end;
           align-self: flex-end;
 }
-column[align="center"] {
+column[item="center"] {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
 }
-column[align="baseline"] {
+column[item="baseline"] {
   -webkit-align-self: baseline;
       -ms-flex-item-align: baseline;
           align-self: baseline;
 }
-column[align="stretch"] {
+column[item="stretch"] {
   -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
           align-self: stretch;
@@ -421,6 +437,24 @@ end-x {
         -ms-flex-preferred-size: 100.000% !important;
             flex-basis: 100.000% !important;
   }
+  column[large="split"] {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex: 1 1 0% !important;
+        -ms-flex: 1 1 0% !important;
+            flex: 1 1 0% !important;
+  }
+  column[large="auto"] {
+    -webkit-box-flex: 0 !important;
+    -webkit-flex: 0 0 auto !important;
+        -ms-flex: 0 0 auto !important;
+            flex: 0 0 auto !important;
+  }
+  column[large="fill"] {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex-grow: 1 !important;
+        -ms-flex-positive: 1 !important;
+            flex-grow: 1 !important;
+  }
 }
 @media screen and (min-width: 60.0625em) {
   row[for-computer], center-x[for-computer], center-y[for-computer], start-x[for-computer], end-y[for-computer] {
@@ -496,6 +530,24 @@ end-x {
         -ms-flex-preferred-size: 100.000% !important;
             flex-basis: 100.000% !important;
   }
+  column[tablet="split"] {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex: 1 1 0% !important;
+        -ms-flex: 1 1 0% !important;
+            flex: 1 1 0% !important;
+  }
+  column[tablet="auto"] {
+    -webkit-box-flex: 0 !important;
+    -webkit-flex: 0 0 auto !important;
+        -ms-flex: 0 0 auto !important;
+            flex: 0 0 auto !important;
+  }
+  column[tablet="fill"] {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex-grow: 1 !important;
+        -ms-flex-positive: 1 !important;
+            flex-grow: 1 !important;
+  }
 
   row[for-tablet], center-x[for-tablet], center-y[for-tablet], start-x[for-tablet], end-y[for-tablet] {
     display: -webkit-box;
@@ -569,6 +621,24 @@ end-x {
     -webkit-flex-basis: 100.000% !important;
         -ms-flex-preferred-size: 100.000% !important;
             flex-basis: 100.000% !important;
+  }
+  column[phone="split"] {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex: 1 1 0% !important;
+        -ms-flex: 1 1 0% !important;
+            flex: 1 1 0% !important;
+  }
+  column[phone="auto"] {
+    -webkit-box-flex: 0 !important;
+    -webkit-flex: 0 0 auto !important;
+        -ms-flex: 0 0 auto !important;
+            flex: 0 0 auto !important;
+  }
+  column[phone="fill"] {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex-grow: 1 !important;
+        -ms-flex-positive: 1 !important;
+            flex-grow: 1 !important;
   }
 
   row[for-phone], center-x[for-phone], center-y[for-phone], start-x[for-phone], end-y[for-phone] {
