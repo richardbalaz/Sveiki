@@ -716,7 +716,7 @@ h1[align="justify"], h2[align="justify"], h3[align="justify"], h4[align="justify
 h1[case="lower"], h2[case="lower"], h3[case="lower"], h4[case="lower"], h5[case="lower"], p[case="lower"], i[case="lower"], em[case="lower"], b[case="lower"], strong[case="lower"], a[case="lower"] {
   text-transform: lowercase;
 }
-h1[case="uppper"], h2[case="uppper"], h3[case="uppper"], h4[case="uppper"], h5[case="uppper"], p[case="uppper"], i[case="uppper"], em[case="uppper"], b[case="uppper"], strong[case="uppper"], a[case="uppper"] {
+h1[case="upper"], h2[case="upper"], h3[case="upper"], h4[case="upper"], h5[case="upper"], p[case="upper"], i[case="upper"], em[case="upper"], b[case="upper"], strong[case="upper"], a[case="upper"] {
   text-transform: uppercase;
 }
 
