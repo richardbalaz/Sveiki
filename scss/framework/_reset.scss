@@ -3,27 +3,39 @@
 //
 // -- Reset 
 // Reseting all pre-setted CSS values.
-
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body, html {
-	margin: 0em;
+body,
+html {
+    margin: 0em;
 }
 
-h1, h2, h3, h4, h5, h6, p, i, em, b, strong, a {
-	text-align: left;
-	margin: 0em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i,
+em,
+b,
+strong,
+a {
+    text-align: left;
+    margin: 0em;
 }
 
-input, button {
-	border: none;
-	outline: 0em;
-	margin: 0em;
-	padding: 0em;
+input,
+button {
+    border: none;
+    outline: 0em;
+    margin: 0em;
+    padding: 0em;
 }
 
 button::-moz-focus-inner {
-	border: 0em;
+    border: 0em;
 }
