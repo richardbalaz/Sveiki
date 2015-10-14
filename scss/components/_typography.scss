@@ -117,6 +117,20 @@ a {
             display: inline;
         }
     }
+    * {
+        &[computer-align="left"] {
+            text-align: left;
+        }
+        &[computer-align="right"] {
+            text-align: right;
+        }
+        &[computer-align="center"] {
+            text-align: center;
+        }
+        &[computer-align="justify"] {
+            text-align: justify;
+        }                       
+    }    
 }
 
 @media screen and (max-width: $grid-tablet-max) and (min-width: $grid-tablet-min) {
@@ -182,6 +196,20 @@ a {
             display: inline;
         }
     }
+    * {
+        &[tablet-align="left"] {
+            text-align: left;
+        }
+        &[tablet-align="right"] {
+            text-align: right;
+        }
+        &[tablet-align="center"] {
+            text-align: center;
+        }
+        &[tablet-align="justify"] {
+            text-align: justify;
+        }                       
+    }    
 }
 
 @media screen and (max-width: $grid-phone-max) {
@@ -246,5 +274,20 @@ a {
         &[for-phone] {
             display: inline;
         }
+    }
+
+    * {
+        &[phone-align="left"] {
+            text-align: left;
+        }
+        &[phone-align="right"] {
+            text-align: right;
+        }
+        &[phone-align="center"] {
+            text-align: center;
+        }
+        &[phone-align="justify"] {
+            text-align: justify;
+        }                       
     }
 }
